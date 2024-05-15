@@ -55,7 +55,7 @@ export default function Achievements() {
         <section
           className={`  ${isDarkMode ? ("bg-gray-800", "border-white-900") :( "bg-gray-200",  "border-white")} ${
             isDarkMode && "text-white"
-          } p-0 md:p-4 border-none md:border-2 rounded-lg`}
+          } p-2 md:p-4 border-none md:border-2 rounded-lg `}
         >
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 ">
             {/* Achievement 1 */}
