@@ -57,7 +57,7 @@ export default function FooterCom() {
               <Footer.Title  className={`${isDarkMode && 'text-white'}`}/>
               <Footer.LinkGroup col className={`${isDarkMode && 'text-white'}`}>
               <Footer.Link href="about" className="text-xl">Contact us</Footer.Link>
-                <Footer.Link className="sm:hidden"
+                <Footer.Link 
                   href="#"
                    rel="noopener noreferrer"
                 >
@@ -66,6 +66,7 @@ export default function FooterCom() {
                 <Footer.Link
                   href="#"
                   rel="noopener noreferrer"
+                  className="sm:inline hidden" 
                 >
                   JahanFoundation@gmail.com
                 </Footer.Link>
