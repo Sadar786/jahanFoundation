@@ -10,8 +10,8 @@ import hero1 from "../assets/images/p2.webp";
 import hero3 from "../assets/images/p3.webp";
 import hero4 from "../assets/images/p4.webp";
 import hero5 from "../assets/images/p5.webp";
-import test1 from "../assets/test1.webp";
-import test2 from "../assets/test2.webp";
+import local from "../assets/local.webp";
+import student from "../assets/student.webp";
 import test3 from "../assets/images/girl.webp";
 
 import bannerPhoto from "../assets/images/p18.webp";
@@ -184,7 +184,7 @@ export default function Home() {
                 <div className="">
                   <img
                     className="rounded-3xl size-72 mt-6"
-                    src={test2}
+                    src={student}
                     alt=""
                   />
                 </div>
@@ -193,7 +193,7 @@ export default function Home() {
                     isDarkMode && "text-white"
                   } `}
                 >
-                  - John Doe, Student Beneficiary
+                  - Alia Nayeem, Student Beneficiary
                 </p>
               </div>
               <div
@@ -217,7 +217,7 @@ export default function Home() {
                 <div className="">
                   <img
                     className="rounded-3xl size-72 mt-6"
-                    src={test1}
+                    src={local}
                     alt=""
                   />
                 </div>

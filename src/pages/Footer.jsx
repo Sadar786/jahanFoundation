@@ -22,7 +22,7 @@ export default function FooterCom() {
         to="/"
         className="self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white"
       >
-        <div className="flex">
+        <div className="flex mt-5">
           <img
             className="w-10 h-10 rounded-full  border border-gray-300"
             src={logo}
@@ -34,8 +34,10 @@ export default function FooterCom() {
           </div>
           <div className={`grid grid-cols-2 gap-8  mt-4 sm:grid-cols-3 sm:gap-6 ${isDarkMode && 'text-white'}`}>
             <div>
-              <Footer.Title className={`${isDarkMode && 'text-white'}`} title="About" />
+
+              <Footer.Title className={`${isDarkMode && 'text-white'}`} />
               <Footer.LinkGroup col className={`${isDarkMode && 'text-white'}`}>
+                <Footer.Link href="about" className="text-xl">About us</Footer.Link>
                 <Footer.Link
                   href="achievments"
                    rel="noopener noreferrer"
@@ -50,31 +52,22 @@ export default function FooterCom() {
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>
+           
             <div>
-              <Footer.Title className={`${isDarkMode && 'text-white'}`} title="Contact us" />
+              <Footer.Title  className={`${isDarkMode && 'text-white'}`}/>
               <Footer.LinkGroup col className={`${isDarkMode && 'text-white'}`}>
-                <Footer.Link href="#" rel="noopener noreferrer">
-                  Privacy Policy
-                </Footer.Link>
-                <Footer.Link href="#" rel="noopener noreferrer">
-                  Term &amp; Conditions
-                </Footer.Link>
-              </Footer.LinkGroup>
-            </div>
-            <div>
-              <Footer.Title title="Contact us" className={`${isDarkMode && 'text-white'}`}/>
-              <Footer.LinkGroup col className={`${isDarkMode && 'text-white'}`}>
+              <Footer.Link href="about" className="text-xl">Contact us</Footer.Link>
                 <Footer.Link
-                  href="achievments"
+                  href="#"
                    rel="noopener noreferrer"
                 >
-                  Our Contribution to health
+                  +923554287661
                 </Footer.Link>
                 <Footer.Link
-                  href="achievments"
+                  href="#"
                   rel="noopener noreferrer"
                 >
-                  Our Achivements for women
+                  JahanFoundation@gmail.com
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>
