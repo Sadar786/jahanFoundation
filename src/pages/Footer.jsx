@@ -67,7 +67,7 @@ export default function FooterCom() {
                   href="#"
                   rel="noopener noreferrer"
                 >
-                  JahanFoundation@gmail.com
+                   
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>
